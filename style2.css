@@ -1,0 +1,36 @@
+.lessons-list li:nth-child(1) {
+  color: #ff5733;
+}
+.lessons-list li:nth-child(1):hover {
+  background-color: #ccc;
+  color: #fff;
+}
+
+.lessons-list li:nth-child(2) {
+  color: #3399ff;
+}
+.lessons-list li:nth-child(2):first-child {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.lessons-list li:nth-child(3) {
+  color: #33ff66;
+}
+.lessons-list li:nth-child(3):last-child {
+  text-decoration: underline;
+}
+
+.lessons-list li:nth-child(4):not(.canceled) {
+  color: #9966cc;
+}
+.lessons-list li:nth-child(4):not(.canceled):hover {
+  background-color: #9966cc;
+  color: #fff;
+}
+
+.lessons-list li:nth-child(5) {
+  color: #ff9900;
+}
+.lessons-list li:nth-child(5):nth-of-type(odd) {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
